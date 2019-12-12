@@ -13,7 +13,12 @@ I created this solution to return city's name choised by users, but you can edit
 ```
 <template>
   <div>
-    <input id="location" type="text" v-model:"city"><br>
+    <input 
+      id="location" 
+      type="text" 
+      placeholder="Input with your city"
+      v-model:"city" 
+      v-on:keyup.enter="onKeyUpEnterCompleteSearch()" />
   </div>
 </template
 
