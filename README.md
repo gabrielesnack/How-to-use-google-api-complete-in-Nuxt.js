@@ -1,13 +1,13 @@
 # How-to-use-google-api-complete-in-Nuxt.js
 The code below was development by me and was created for get informations from research by users on fields with autocomplete google maps.
 
-# Dependecies
+# Dependencies
 I used module nuxt-google-maps-module wich can be found in packages on npm
 link to module: https://www.npmjs.com/package/nuxt-google-maps-module
 
-# Note: YOU NEED ADD MODULE IN NUXT.CONFIG.JS
+# Note: you need add module in nuxt.config.js
 
-# More Informations
+# How to use
 I created this solution to return city's name choised by users, but you can edit this solution according need.
 
 ```
